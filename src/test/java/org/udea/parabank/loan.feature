@@ -4,8 +4,8 @@ Feature: Request Loan Feature
 Background:
     * url baseUrl
     * header Accept = 'application/json'
-    * def val_customerId = 16208
-    * def val_fromAccountId = 21891
+    * def val_customerId = 12212
+    * def val_fromAccountId = 13011
     * def val_loanProviderName = 'Wealth Securities Dynamic Loans (WSDL)'
     * def fakerObject = new faker()
     * def val_amount = fakerObject.number().numberBetween(100, 200)
