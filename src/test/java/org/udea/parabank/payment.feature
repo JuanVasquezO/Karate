@@ -4,15 +4,15 @@ Feature: Payment Feature
 Background:
     * url baseUrl
     * header Accept = 'application/json'
-    * def val_accountId = 21669
+    * def val_accountId = 15564
     * def val_exceededAmount = 10000
-    * def val_name = 'Mary Smith'
-    * def val_street = '123 Main St'
-    * def val_city = 'Springfield'
-    * def val_state = 'IL'
-    * def val_zipCode = '62701'
-    * def val_phoneNumber = '555-1234'
-    * def val_accountNumber = '12350'
+    * def val_name = 'Pedro Perez'
+    * def val_street = 'Colombia'
+    * def val_city = 'Medellin'
+    * def val_state = 'Texas'
+    * def val_zipCode = '2020'
+    * def val_phoneNumber = '1234'
+    * def val_accountNumber = '1234'
 
 Scenario: Payment with insufficient funds
     Given path 'billpay'
