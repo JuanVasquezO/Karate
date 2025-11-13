@@ -4,8 +4,8 @@ Feature: Transfer Feature
   Background:
     * url baseUrl
     * header Content-Type = 'application/x-www-form-urlencoded'
-    * def val_fromAccountId = 21780
-    * def val_toAccountId = 21669
+    * def val_fromAccountId = 13122
+    * def val_toAccountId = 12345
     * def val_amount = 10.0
 
   Scenario: Transfer between accounts and verify success message
