@@ -6,7 +6,7 @@ Feature: Accounts Feature
     * header Accept = 'application/json'
     * def val_accountId = 13122
     * def val_customerId = 12212
-    * def val_accountType = 'SAVINGS'
+    * def val_accountType = 'CHECKING'
 
   Scenario: Retrieve account details by accountId
     Given path 'accounts'
